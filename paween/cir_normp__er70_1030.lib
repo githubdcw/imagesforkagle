@@ -1,0 +1,30 @@
+*  Sonnet Data File
+*  From: em Version : 16.56
+*  From Project: cir_normp__er70_1030
+*  Data is De-embedded 
+*  Data File Written: 09/18/2021 15:45:53
+* < HDATE 08/23/2021 03:48:50
+* < MDATE 09/18/2021 15:40:34
+*  Spice Data
+* Limits: C>0.01pF L<0.0nH R<1000.0Ohms K>0.0
+    *  Analysis frequencies: 1.0, 10.0 MHz
+.subckt cir_normp__er70_1030_0 1 2 REF
+C_C1 1 REF 128.6502pf
+C_C2 1 2 49.21915pf
+C_C3 2 REF 128.3484pf
+.ends cir_normp__er70_1030_0
+
+    *  Analysis frequencies: 10.0, 20.0 MHz
+.subckt cir_normp__er70_1030_1 1 2 REF
+C_C1 1 REF 129.7125pf
+C_C2 1 2 51.20052pf
+C_C3 2 REF 129.3601pf
+.ends cir_normp__er70_1030_1
+
+    *  Analysis frequencies: 20.0, 30.0 MHz
+.subckt cir_normp__er70_1030_2 1 2 REF
+C_C1 1 REF 131.8999pf
+C_C2 1 2 55.5535pf
+C_C3 2 REF 131.4423pf
+.ends cir_normp__er70_1030_2
+
